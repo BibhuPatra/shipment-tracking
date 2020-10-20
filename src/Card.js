@@ -5,7 +5,8 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-
+//Using Material UI to make Card component
+//Adding inline CSS elements
 const useStyles = makeStyles({
   root: {
     minWidth: 275,
@@ -22,7 +23,7 @@ const useStyles = makeStyles({
     marginBottom: 12,
   },
 });
-
+//Adding a function component for Card component
 export default function OutlinedCard() {
   const classes = useStyles();
   const bull = <span className={classes.bullet}>•</span>;
