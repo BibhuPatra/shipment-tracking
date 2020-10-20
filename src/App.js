@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import {fetchData} from './api/fetchData';
 import AppDrawer from './AppDrawar';
 
-
+//adding function component
 export const App = () => {
+  //adding useState hooks 
   const [query, setQuery] = useState('');
   const [trackings, setTrackings] = useState({});
 
