@@ -2,8 +2,9 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-
+//Using material-ui as a UI liberary
 const useStyles = makeStyles((theme) => ({
+  //Adding inline CSS elements
   root: {
     flexGrow: 1,
   },
@@ -13,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
     color: theme.palette.text.secondary,
   },
 }));
-
+//Adding functional component Nestgrid
 export default function NestedGrid() {
   const classes = useStyles();
 
